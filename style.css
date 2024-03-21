@@ -30,6 +30,21 @@ h3 {
   font-size: 1rem;
 }
 
+h2 {
+  font-family: "thicccboi", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+h1 {
+  font-family: "thicccboi", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  max-width: 12 00rem;
+  color: #fff;
+}
+
 p {
   font-family: "thicccboi", sans-serif;
   font-weight: 500;
@@ -49,7 +64,15 @@ body {
 }
 
 /*NAVBAR*/
+
+.container-hero {
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+}
 .navbar {
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,25 +113,11 @@ body {
 /*NAVBAR*/
 
 /*container*/
-
-/* .container .row { 
-  margin-right: 4rem; 
-} */
-
-.container .row h1 {
-  font-family: "thicccboi", sans-serif;
-  font-weight: 900;
-  font-size: 4rem;
-  max-width: 12 00rem;
-  color: #fff;
-}
-
-.container .row h2 {
-  font-family: "thicccboi", sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  max-width: 50rem;
-  color: #fff;
+.container-hero {
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  margin-top: 5.5rem;
 }
 
 .container .row h1 span {
@@ -116,11 +125,10 @@ body {
   -webkit-text-stroke: 1px white;
 }
 
-.container .row p {
+.container-hero .row p {
   font-family: "thicccboi", sans-serif;
   font-weight: 400;
   font-size: 1rem;
-
   padding: 1rem 0 1rem;
   color: #fff;
 }
