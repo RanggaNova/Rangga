@@ -65,11 +65,6 @@ body {
 
 /*NAVBAR*/
 
-.container-hero {
-  max-width: 1200px;
-  margin: auto;
-  align-items: center;
-}
 .navbar {
   top: 0;
   left: 0;
@@ -118,6 +113,8 @@ body {
   margin: auto;
   align-items: center;
   margin-top: 5.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .container .row h1 span {
@@ -346,7 +343,7 @@ footer .column .socials a:hover {
 footer .column h4 {
   margin-bottom: 2rem;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 700;
   color: white;
 }
 
@@ -445,8 +442,8 @@ footer .column > a:hover {
   }
 
   .button {
-    padding: 10px 25px;
-    font-size: 12px;
+    padding: 12px 28px;
+    font-size: 14px;
     border-radius: 7px;
   }
 }
@@ -482,6 +479,11 @@ footer .column > a:hover {
 
   footer {
     grid-template-columns: 1fr 150px;
+  }
+  .button {
+    padding: 10px 25px;
+    font-size: 10px;
+    border-radius: 7px;
   }
 }
 /* MEDIA QUERRISSS */
