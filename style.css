@@ -384,6 +384,9 @@ footer .column > a:hover {
   .container-hero {
     margin: 5rem 2rem 3rem 2rem;
   }
+  .container-hero .row {
+    text-align: center;
+  }
 
   .link {
     display: none;
