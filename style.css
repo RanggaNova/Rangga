@@ -12,11 +12,17 @@
   padding: 5rem 2rem;
   align-items: center;
 }
-header {
+.container-hero {
   position: relative;
   padding-top: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  margin-top: 5.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 h4 {
   font-family: "thicccboi", sans-serif;
@@ -110,14 +116,7 @@ body {
 /*NAVBAR*/
 
 /*container*/
-.container-hero {
-  max-width: 1200px;
-  margin: auto;
-  align-items: center;
-  margin-top: 5.5rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
+
 
 .container .row h1 span {
   color: transparent;
