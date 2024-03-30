@@ -63,32 +63,6 @@ body {
   height: 2000px;
 }
 
-/*Cursor*/
-.cursor-dot {
-  width: 5px;
-  height: 5px;
-  background-color: white;
-  position: fixed;
-  z-index: 1;
-  border-radius: 100px;
-}
-
-.cursor-outline {
-  width: 30px;
-  height: 30px;
-  border: 2px solid hsla(0, 0%, 100%, 0.5);
-  position: fixed;
-  z-index: 1;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.cursor-dot,
-.cursor-outline {
-  pointer-events: none;
-}
-/*Cursor*/
-
 /*NAVBAR*/
 
 .navbar {
@@ -493,7 +467,6 @@ footer .column > a:hover {
   }
   .features {
     grid-template-columns: repeat(1, 1fr);
-    text-align: center;
   }
 
   /* .features {
