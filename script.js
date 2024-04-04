@@ -21,5 +21,25 @@ document.addEventListener("DOMContentLoaded", function () {
 // Event listener untuk hamburger menu
 document.querySelector("#hamburger").onclick = () => {
   const navbarNav = document.querySelector(".navbar-nav");
-  navbarNav.classList.toggle("active"); // Menambah atau menghapus kelas "active"
+  navbarNav.classList.toggle("active");
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+  const $bigBall = document.querySelector(".cursor__ball--big");
+  const $smallBall = document.querySelector(".cursor__ball--small");
+
+  // Move the cursor
+  function onMouseMove(e) {
+    TweenMax.to($bigBall, 0.4, {
+      x: e.pageX - 15,
+      y: e.pageY - 15,
+    });
+    TweenMax.to($smallBall, 0.1, {
+      x: e.pageX - 5,
+      y: e.pageY - 7,
+    });
+  }
+
+  // Listeners
+  document.body.addEventListener("mousemove", onMouseMove);
+});
