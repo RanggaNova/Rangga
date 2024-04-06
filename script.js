@@ -39,7 +39,4 @@ document.addEventListener("DOMContentLoaded", function () {
       y: e.pageY - 7,
     });
   }
-
-  // Listeners
-  document.body.addEventListener("mousemove", onMouseMove);
 });
